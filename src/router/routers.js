@@ -68,6 +68,16 @@ export default [
     },
     children: [
       {
+        path: '/xrz',
+        name: 'xrz',
+        meta: {
+          title: '新入职',
+          icon: 'md-home',
+          hideInMenu: false
+        },
+        component: () => import('@/view/pages/xrz')
+      },
+      {
         path: 'join_page',
         name: 'join_page',
         meta: {
